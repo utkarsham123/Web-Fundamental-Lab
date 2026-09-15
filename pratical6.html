@@ -1,0 +1,78 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Grade Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <div class="icon">🎓</div>
+            <h1>Student Grade Calculator</h1>
+            <p>Calculate your academic performance instantly</p>
+        </div>
+
+        <!-- Calculator Card -->
+        <form id="gradeForm">
+
+            <div class="subjects">
+
+                <div class="subject">
+                    <label>📘 Mathematics</label>
+                    <input type="number" id="sub1"
+                           placeholder="Enter marks" min="0" max="100">
+                </div>
+
+                <div class="subject">
+                    <label>💻 Java</label>
+                    <input type="number" id="sub2"
+                           placeholder="Enter marks" min="0" max="100">
+                </div>
+
+                <div class="subject">
+                    <label>💻 DSA</label>
+                    <input type="number" id="sub3"
+                           placeholder="Enter marks" min="0" max="100">
+                </div>
+
+                <div class="subject">
+                    <label>💻 Python</label>
+                    <input type="number" id="sub4"
+                           placeholder="Enter marks" min="0" max="100">
+                </div>
+
+                <div class="subject">
+                    <label>🌐 Web Development</label>
+                    <input type="number" id="sub5"
+                           placeholder="Enter marks" min="0" max="100">
+                </div>
+
+            </div>
+
+          <button type="submit">
+    Calculate My Result ✨
+</button>
+
+<div id="result" class="result"></div>
+
+        </form>
+
+        <!-- Result -->
+        <div id="result" class="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```

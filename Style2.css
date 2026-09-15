@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@theme{
+    --breakpoint-sm: 400px;
+    --breakpoint-md: 700px;
+    --breakpoint-lg: 900px;
+    --breakpoint-big: 1000px;
+    --padding-11: 80px;
+    --padding-cd-3: 120px;
+    --margin-10: 40px;
+    --margin-rj-50:50px;
+    --height-1:100px;
+    --width-1:100px;
+    --size-100:100px;
+    --size-custom-10:250px;
+}
+@layer components{
+   .btn-primary{
+      @apply bg-blue-500 rounded text-white p-2 hover:bg-blue-700
+   }
+   .bg-background-blue{
+      @apply bg-blue-600 p-2 m-2
+   }
+}
